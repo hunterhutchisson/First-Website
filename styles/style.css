@@ -1,0 +1,152 @@
+html {
+  font-size: 10x; 
+  font-family: 'Ubuntu', sans-serif; 
+  background-color: #A7EBF2
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+  text-shadow: 3px 3px 1px #93A603;
+}
+h2 {
+  font-size: 48px;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #93A603;
+}
+h4 {
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+  text-shadow: 3px 3px 1px #93A603;
+}
+h5 {
+  font-size: 24px;
+  text-align: left;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-left: 40px;
+  padding-top: -100px;
+  color: #93A603;
+}
+p {
+  font-size: 48px;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #93A603;
+}
+
+li {
+  font-size: 48px;
+  text-align: left;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #93A603;
+}
+
+body {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #023059;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #023059;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #023059;
+}
+
+.topnav {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;;
+    background-color:#A2EAF2;
+    text-align: center;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.topnav a {
+    color: #023059;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #80D2F2;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #93A603;
+    color: white;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+img {
+  max-width: 600%;
+}
+
+.about-image {
+  flex-basis: 40%;
+}
+
+.about-text {
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;;
+  line-height: 1.5;
+  color: #93A603;
+  padding-left: 475px;
+}
+
+.interest-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.interest-image {
+  flex-basis: 7%;
+}
+
+.interest-text {
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;;
+  line-height: 1.5;
+  color: #93A603;
+  padding-left: 475px;
+}
+
+.link-text {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;;
+  line-height: 1.5;
+  color: #93A603;
+  
+}
+
+.link-img {
+  width: 100px;
+}
