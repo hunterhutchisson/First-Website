@@ -42,6 +42,12 @@ p {
   letter-spacing: normal;
   color: #93A603;
 }
+.root-link{
+  font-size: 48px;
+  font-family: 'Ubuntu', sans-serif;;
+  line-height: 1.5;
+  color: #93A603;
+}
 
 li {
   font-size: 48px;

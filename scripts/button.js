@@ -10,7 +10,13 @@ function setUserName() {
       myHeading.innerHTML = 'Feel tree to look around, ' + myName;
     }
   }
-  
+
+  if(!localStorage.getItem('name')) {
+    setUserName();
+} else {
+    let storedName = localStorage.getItem('name');
+    myHeading.textContent = 'Feel tree to look around, ', + myName;
+}
   
 myButton.onclick = function() {
   setUserName();
